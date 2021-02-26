@@ -1,0 +1,30 @@
+[28-Dec-2020 14:24:20 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/skybell/public_html/premlalapp/application/controllers/Welcome.php on line 157
+[29-Dec-2020 18:36:24 Asia/Kolkata] PHP Fatal error:  Call to undefined method AdminModel::create_links() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 736
+[29-Dec-2020 18:36:29 Asia/Kolkata] PHP Fatal error:  Call to undefined method AdminModel::create_links() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 736
+[29-Dec-2020 18:36:46 Asia/Kolkata] PHP Fatal error:  Call to undefined method AdminModel::create_links() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 736
+[29-Dec-2020 18:37:02 Asia/Kolkata] PHP Fatal error:  Call to undefined method AdminModel::create_links() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 736
+[30-Dec-2020 11:15:29 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:17:58 Asia/Kolkata] PHP Fatal error:  Call to a member function get_categories_select() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 290
+[30-Dec-2020 11:18:23 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:22:06 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:22:22 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:22:32 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:23:05 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:23:24 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:24:36 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[30-Dec-2020 11:25:03 Asia/Kolkata] PHP Fatal error:  Call to a member function get_all_products() on null in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 251
+[11-Jan-2021 19:36:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 's' (T_STRING), expecting ',' or ';' in /home/skybell/public_html/premlalapp/application/views/register.php on line 130
+[29-Jan-2021 14:45:40 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Admin_model1::deleteRecordSub() in /home/skybell/public_html/premlalapp/application/models/Admin_model1.php on line 1394
+[01-Feb-2021 11:37:05 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 11:37:11 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 11:37:11 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 11:37:12 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 11:37:12 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 11:37:12 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 11:37:20 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/skybell/public_html/premlalapp/application/views/maincategory.php on line 338
+[01-Feb-2021 13:56:56 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/skybell/public_html/premlalapp/application/views/singleproduct.php on line 284
+[01-Feb-2021 14:38:13 Asia/Kolkata] PHP Fatal error:  Call to undefined method Admin_model1::get_user_Logindetails1() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 373
+[01-Feb-2021 14:38:32 Asia/Kolkata] PHP Fatal error:  Call to undefined method Admin_model1::get_user_Logindetails1() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 373
+[01-Feb-2021 14:39:04 Asia/Kolkata] PHP Fatal error:  Call to undefined method Admin_model1::get_user_Logindetails1() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 373
+[01-Feb-2021 14:39:13 Asia/Kolkata] PHP Fatal error:  Call to undefined method Admin_model1::get_user_Logindetails1() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 373
+[01-Feb-2021 14:39:56 Asia/Kolkata] PHP Fatal error:  Call to undefined method Admin_model1::get_user_Logindetails1() in /home/skybell/public_html/premlalapp/application/controllers/EcoDashAdmin.php on line 373

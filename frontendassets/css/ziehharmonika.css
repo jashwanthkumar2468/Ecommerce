@@ -1,0 +1,131 @@
+/* @author Tim himself */
+
+.ziehharmonika h3 {
+    /*background: rgba(255, 255, 255, 0);*/
+    color: #851753;
+    text-align: left;
+    border-radius: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-right: 40px;
+    transition: 0.25s all;
+    position: relative;
+    /*border: 3px solid #1f5179;*/
+    font-weight: 400;
+    letter-spacing: 1px;
+        border-bottom: 1px dotted #ebdebc;
+            font-size: 18px;
+    font-family: Tahoma,Geneva,sans-serif;
+}
+.ziehharmonika h3.active {
+    margin-bottom: 0px;
+ /*background: #2196F3;
+    border: 2px solid #2196f3;*/
+    color:#851753;
+        border-bottom: 1px dotted #ebdebc;
+   
+}
+.ziehharmonika li{
+	list-style: none;
+	font-size:14px;
+    font-family: Tahoma, Geneva, sans-serif;
+     padding: 5px;
+}
+.ziehharmonika .righttag li {
+    list-style: none;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 5px;
+    text-align: right;
+}
+.ziehharmonika .lefttag li {
+    list-style: none;
+    font-size: 14px;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 5px;
+    text-align: right;
+        float: right;
+}
+.ziehharmonika li::before {/*content: "•"; color: #0176c3;
+  display: inline-block; width: 1em;
+  margin-left: -1em*/}
+.ziehharmonika a{
+	color:#000000;
+
+}
+.ziehharmonika h3::before {
+	content: attr(data-prefix);
+	font-size: 18px;
+	margin-right: 9px;
+	font-family: 'Nunito', sans-serif;
+}
+.ziehharmonika > div {
+	    display: none;
+    background: #fff;
+    border-radius: 0px;
+    /* border: 1px outset #2196f3; */
+    text-align: left;
+    padding: 19px 0px;
+    margin-bottom: 9px;
+}
+.ziehharmonika .arrowDown {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13.0px 7.5px 0 7.5px;
+	border-color: #272e35 transparent transparent transparent;
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+	transition: 0.25s all;
+	opacity: 0;
+}
+.ziehharmonika .active .arrowDown {
+       bottom: -16px;
+    border-color: #2196f3 transparent transparent transparent;
+    opacity: 1;
+    display: none;
+}
+.ziehharmonika .collapseIcon {
+	    position: absolute;
+    right: 20px;
+    top: 52%;
+    font-size: 16px;
+    font-weight: 400;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+.w3_agile_recipe-grid{
+	        border-bottom: 1px dotted #ebdebc;
+}
+
+.ziehharmonika{
+	margin-top:-20px;
+}
+
+/*--/Responsive--*/
+@media(max-width:640px){
+	.ziehharmonika > div {
+		display: none;
+		background: #fff;
+		border-radius: 0;
+		border: 1px solid #cdcdcd;
+		text-align: left;
+		padding: 15px 15px;
+		margin-bottom: 9px;
+	}
+	.ziehharmonika h3 {
+      padding: 15px 20px;
+	}
+}
+@media(max-width:414px){
+	.ziehharmonika h3 {
+		padding: 9px 15px;
+		margin-bottom: 14px;
+		padding-right: 40px;
+		font-size: 1.2em;
+	}
+}
+/*--//Responsive--*/
