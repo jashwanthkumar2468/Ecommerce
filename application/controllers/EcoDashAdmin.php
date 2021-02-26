@@ -14,7 +14,7 @@ class EcoDashAdmin extends CI_Controller
 		redirect(base_url('EcoDashAdmin'));
 	}
 	public function StaffSignOut()
-	{
+	{ 
 		$this->session->sess_destroy();
 		redirect(base_url('EcoDashAdmin/staffmemberslogin'));
 	}
